@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<title>「死亡確認」って出すCSS</title>
+
+<style>
+body.state-dead::after {
+  background: #000;
+  content: "\6b7b\4ea1\78ba\5b9a";
+  color: #fff;
+  display: block;
+  left: 0;
+  padding: .5rem;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  z-index: 10000;
+}
+</style>
+
+</head>
+<body class="state-dead">
+
+</body>
+</html>
